@@ -1,0 +1,109 @@
+<!doctype html>
+<html class="no-js" lang="ja">
+<head>
+<meta charset="utf-8">
+<title>parallax</title>
+<link rel="stylesheet" href="css/reset.css" type="text/css" />
+<link rel="stylesheet" href="css/nurupo.css" type="text/css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function() {
+	$(window).scroll(function(){
+		var y = jQuery(this).scrollTop();
+
+		// background
+		$('#bg1b').css('opacity', -y / 500 + 1.5 );
+		
+		$('#bg1').css('background-position', '50% ' + parseInt( -y / 10 + 0 ) + 'px');
+		$('#bg1b').css('background-position', '50% ' + parseInt( -y / 10 + 0 ) + 'px');
+		$('#bg2').css('background-position', '50% ' + parseInt( -y / 15 - 50 ) + 'px');
+		$('#bg3').css('background-position', '50% ' + parseInt( -y / 10 + 100 ) + 'px');
+		$('#bg4').css('background-position', '50% ' + parseInt( -y / 15 + 0 ) + 'px');
+		$('#bg5').css('background-position', '50% ' + parseInt( -y / 20 + 10 ) + 'px');
+
+
+		// item
+		$('#beer1').css('background-position', '10% ' + parseInt( -y / 3 + 1050 ) + 'px');
+		$('#beer2').css('background-position', '90% ' + parseInt( -y / 3 + 1150 ) + 'px');
+		$('#baken').css('background-position', '75% ' + parseInt( -y / .8 + 3200 ) + 'px');
+		$('#satutaba1').css('background-position', '40% ' + parseInt( -y / .5 + 4800 ) + 'px');
+		
+		$('#member').css('background-position', '10% ' + parseInt( -y / 3 + 1200 ) + 'px');
+
+
+	});
+});
+</script>
+</head>
+<body>
+	
+	
+<!-- exterior ///////////////////////////////// -->
+<div id="bg1" class="bg">
+	<div id="bg1b" class="bg">
+		<h1><img src="images/logo.png" width="300" height="107" alt="Logo"></h1>
+	<!-- /#bg1b --></div>
+<!-- /#bg1 --></div>
+
+
+<!-- entrance ///////////////////////////////// -->
+<div id="bg2" class="bg">
+	<div class="text">
+		<div class="wrapper">
+			<h2>ぬるぽとは</h2>
+			<p>都会の人間社会に馴染めない三人のプログラマー（自称）が品川の古い一軒家を借り、夜な夜な鍋をつつきながらみずからの自堕落さを肴にくだを巻く家。</p>
+			<p>最近は掃除機、冷蔵庫、土鍋などが欲しいためLivlisで寄付を募っている。</p>
+		</div>
+	</div>
+<!-- /#bg01 --></div>
+
+
+<!-- main room ///////////////////////////////// -->
+<div id="bg3" class="bg">
+	<div id="beer1" class="item">
+		<div id="beer2" class="item">
+			<div id="baken" class="item">
+				<div id="satutaba1" class="item">
+					
+					<div class="text">
+						<div class="wrapper">
+							<h2>ぬるぽの存在意義</h2>
+							<p>アルコール依存症（アルコールいそんしょう、アルコールいぞんしょう）とは、薬物依存症の一種で、飲酒などアルコール（特にエタノール）の摂取（以下「飲酒」とする）によって得られる精神的、肉体的な薬理作用に強く囚われ、自らの意思で飲酒行動をコントロールできなくなり、強迫的に飲酒行為を繰り返す精神疾患である。患者は、アルコールによって自らの身体を壊してしまうのを始め、家族に迷惑をかけたり、様々な事件や事故・問題を引き起こしたりして社会的・人間的信用を失ったりすることがある。</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- /#bg3 --></div>
+
+
+<!-- member ///////////////////////////////// -->
+<div id="bg4" class="bg">
+	<div id="member" class=" bg">
+		<div class="text">
+			<div class="wrapper">
+				<h2>member</h2>
+				<p>髭面の3人をふすまの前に立たせて写真を取り、HDRでそれらしい形にする。</p>
+			</div>
+		</div>
+	</div>
+<!-- /#bg4 --></div>
+
+
+<!-- table ///////////////////////////////// -->
+<div id="bg5" class="bg">
+	<div class="text">
+		<div class="wrapper">
+			<h2>遊びに来てね</h2>
+			<p>的なメッセージを記載するが、テーブルの下に散らばる馬券と脱ぎ捨てた靴下と食べ残したカップ麺とフライデーを見て、閲覧者をなんとも言えない気持ちにさせるとよい。</p>
+			<p>ソーシャルボタンをひと通りと、Grow!でお金をクレクレする。Paypalも入れる。</p>
+		</div>
+	</div>
+<!-- /#bg5 --></div>
+
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+
+
+/* ----------------------------
+ common setting
+*/
+.bg {
+	height: 1000px;
+	background-position: top center;
+	background-repeat: no-repeat;
+	position: relative;
+	background-attachment: fixed;
+}
+
+.item {
+	height: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+/* ----------------------------
+ background
+*/
+#bg1  { background-image: url(../images/bg1.jpg); }
+#bg1b { background-image: url(../images/bg1b.jpg); opacity:1; }
+#bg2  { background-image: url(../images/bg2.jpg); }
+#bg3  { background-image: url(../images/bg3.jpg); }
+#bg4  { background-image: url(../images/bg4.jpg); }
+#bg5  { background-image: url(../images/bg5.jpg); }
+
+
+/* ----------------------------
+ items
+*/
+#beer1 {
+	background-image: url(../images/beer1.png);
+	position: relative;
+	background-position: 20% 100%;
+}
+
+#beer2 {
+	background-image: url(../images/beer2.png);
+	position: relative;
+	background-position: 100% 100%;	
+}
+
+#baken {
+	background-image: url(../images/img_baken.png);
+	position: relative;
+	background-position: 100% 100%;	
+}
+
+#satutaba1 {
+	background-image: url(../images/img_satutaba1.png);
+	position: relative;
+	background-position: 100% 100%;	
+}
+
+#member {
+	background-image: url(../images/img_member.png);
+	position: relative;
+	background-position: 100% 100%;	
+}
+
+
+/* ----------------------------
+ text etc
+*/
+#bg1 h1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+#bg1 h1 img {
+	margin-left: -150px;
+	margin-top: -90px;
+}
+
+
+
+.text {
+	width: 1200px;
+	margin: 0 auto;
+	text-shadow: 0 1px 0 rgba(0,0,0,.5);
+	clear: both;
+	position: relative;
+}
+
+.text .wrapper {
+	position: relative;
+}
+
+.text h2 {	
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+.text p {
+	margin-bottom: 1em;
+	
+}
+
+#bg2 .text .wrapper {
+	color: #fff;
+	font-size: 14px;
+	margin-top: 200px;
+	width: 400px;
+	float: right;
+}
+
+#bg3 .text .wrapper {
+	color: #fff;
+	font-size: 14px;
+	width: 400px;
+	top: 300px;
+}
+
+#bg4 .text .wrapper {
+	color: #fff;
+	font-size: 14px;
+	width: 400px;
+	top: 300px;
+	float: right;
+}
+
+#bg5 .text .wrapper {
+	color: #fff;
+	font-size: 14px;
+	width: 400px;
+	top: 300px;
+	margin: 0 auto;
+}
