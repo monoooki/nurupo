@@ -1,1 +1,13 @@
 背景画像の大きさは 1900x1200 です。
+
+立ち上げ方
+
+$ git clone https://github.com/monoooki/nurupo.git
+
+$ cd nurupo
+
+$ bundle
+
+$ bundle exec rackup
+
+localhost:9292にアクセス。
