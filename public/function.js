@@ -6,7 +6,7 @@ function parallax(){
 
 
 		// background
-		$('#bg1b').css('opacity', -y / 500 + 1.5 );
+		$('#bg1b').css('opacity', -y / 500 + 0.5 );
 	
 		$('#bg1').css('background-position', '50% ' + parseInt( -y / 10 + 0 ) + 'px');
 		$('#bg1b').css('background-position', '50% ' + parseInt( -y / 10 + 0 ) + 'px');
