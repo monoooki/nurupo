@@ -1,0 +1,87 @@
+=clearfix
+  zoom: 1
+  &:before,
+  &:after
+    display: block
+    height: 0
+    visibility: hidden
+    content: "\0020"
+  &:after
+    clear: both
+
+body
+  background: #000
+  color: #fff
+  width: 730px
+  margin: 0 auto
+  padding: 20px 0 0 0
+
+header
+  h1
+    display: block
+    text-indent: -9999px
+    height: 350px
+    background: #f5f5f5 url('../images/h1.jpg')
+
+section
+  padding: 20px 0
+  clear: both
+  +clearfix
+  h1
+    height: 48px
+    text-indent: -9999px
+    margin: 0 0 15px 0
+  p
+    font-size: 14px
+    line-height: 1.7
+  p.buy
+    padding: 30px 0 0 0
+    clear: both
+    a
+      display: block
+      text-indent: -9999px
+      width: 608px
+      height: 79px
+      background: url(../images/buy.jpg)
+      margin: 0 auto
+      &link,
+      &visited
+        opacity: 1
+      &:hover,
+      &active
+        opacity: 0.8
+    
+    
+#about
+  h1
+    background: url('../images/h1_about.jpg')
+  h2
+    background: url('../images/itog_about.jpg')
+    width: 161px
+    height: 258px
+    float: left
+    text-indent: -9999px
+  div.content
+    float: right
+    width: 535px
+
+#ranking
+  h1
+    background: url('../images/h1_ranking.jpg')
+  h2
+    background: url('../images/h2_ranking.gif')
+    height: 172px
+    text-indent: -9999px
+    margin: 20px 0 10px 0
+  ul
+    +clearfix
+    background: #ff2323
+    padding: 10px
+    li
+      display: block
+      float: left
+      margin: 0 10px 0 0
+    
+#before_after
+  h1
+    background: url('../images/h1_before_after.jpg')
