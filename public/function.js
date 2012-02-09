@@ -21,6 +21,7 @@ function parallax(){
 		$('#beer2').css('background-position', '90% ' + parseInt( -y / 3 + 1150 ) + 'px');
 		$('#baken').css('background-position', '75% ' + parseInt( -y / .8 + 3200 ) + 'px');
 		$('#satutaba1').css('background-position', '40% ' + parseInt( -y / .5 + 4800 ) + 'px');
+		$('#pepe').css('background-position', '70% ' + parseInt( -y / .6 + 4600 ) + 'px');
 	
 		$('#member').css('background-position', '10% ' + parseInt( -y / 3 + 1200 ) + 'px');
 

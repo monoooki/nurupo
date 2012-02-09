@@ -62,6 +62,13 @@
 	background-position: 100% 100%;	
 }
 
+#pepe {
+	background-image: url(../images/pepe.png);
+	position: relative;
+	background-position: 100% 100%;
+}
+
+
 
 /* ----------------------------
  text etc
