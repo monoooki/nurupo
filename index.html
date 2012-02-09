@@ -2,37 +2,14 @@
 <html class="no-js" lang="ja">
 <head>
 <meta charset="utf-8">
-<title>parallax</title>
+<title>ぬる舗 -The best no use human being-</title>
 <link rel="stylesheet" href="css/reset.css" type="text/css" />
 <link rel="stylesheet" href="css/nurupo.css" type="text/css" />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="function.js"></script>
 <script>
-
 $(document).ready(function() {
-	$(window).scroll(function(){
-		var y = jQuery(this).scrollTop();
-
-		// background
-		$('#bg1b').css('opacity', -y / 500 + 1.5 );
-		
-		$('#bg1').css('background-position', '50% ' + parseInt( -y / 10 + 0 ) + 'px');
-		$('#bg1b').css('background-position', '50% ' + parseInt( -y / 10 + 0 ) + 'px');
-		$('#bg2').css('background-position', '50% ' + parseInt( -y / 15 - 50 ) + 'px');
-		$('#bg3').css('background-position', '50% ' + parseInt( -y / 10 + 100 ) + 'px');
-		$('#bg4').css('background-position', '50% ' + parseInt( -y / 15 + 0 ) + 'px');
-		$('#bg5').css('background-position', '50% ' + parseInt( -y / 20 + 10 ) + 'px');
-
-
-		// item
-		$('#beer1').css('background-position', '10% ' + parseInt( -y / 3 + 1050 ) + 'px');
-		$('#beer2').css('background-position', '90% ' + parseInt( -y / 3 + 1150 ) + 'px');
-		$('#baken').css('background-position', '75% ' + parseInt( -y / .8 + 3200 ) + 'px');
-		$('#satutaba1').css('background-position', '40% ' + parseInt( -y / .5 + 4800 ) + 'px');
-		
-		$('#member').css('background-position', '10% ' + parseInt( -y / 3 + 1200 ) + 'px');
-
-
-	});
+	parallax();
 });
 </script>
 </head>

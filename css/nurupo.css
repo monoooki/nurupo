@@ -66,6 +66,8 @@
 /* ----------------------------
  text etc
 */
+
+/* logo(first view) */
 #bg1 h1 {
 	position: absolute;
 	top: 50%;
@@ -78,7 +80,7 @@
 }
 
 
-
+/* e.g. Text Layer */
 .text {
 	width: 1200px;
 	margin: 0 auto;
@@ -87,10 +89,32 @@
 	position: relative;
 }
 
+/* text box */
 .text .wrapper {
 	position: relative;
+	color: #fff;
+	font-size: 14px;
+	width: 400px;
+	top: 400px;
 }
 
+#bg2 .text .wrapper {
+	float: right;
+}
+
+#bg3 .text .wrapper {
+}
+
+#bg4 .text .wrapper {
+	float: right;
+}
+
+#bg5 .text .wrapper {
+	margin: 0 auto;
+}
+
+
+/* detail style */
 .text h2 {	
 	font-size: 50px;
 	margin-bottom: 10px;
@@ -98,36 +122,4 @@
 
 .text p {
 	margin-bottom: 1em;
-	
-}
-
-#bg2 .text .wrapper {
-	color: #fff;
-	font-size: 14px;
-	margin-top: 200px;
-	width: 400px;
-	float: right;
-}
-
-#bg3 .text .wrapper {
-	color: #fff;
-	font-size: 14px;
-	width: 400px;
-	top: 300px;
-}
-
-#bg4 .text .wrapper {
-	color: #fff;
-	font-size: 14px;
-	width: 400px;
-	top: 300px;
-	float: right;
-}
-
-#bg5 .text .wrapper {
-	color: #fff;
-	font-size: 14px;
-	width: 400px;
-	top: 300px;
-	margin: 0 auto;
 }
