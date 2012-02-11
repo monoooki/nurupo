@@ -1,136 +1,273 @@
-
-
 /* ----------------------------
- common setting
-*/
+ *mixins */
+/* ----------------------------
+ *common setting */
+@media screen and (max-device-width: 480px) {
+  /* line 29, ../sass/nurupo.sass */
+  body {
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    text-size-adjust: none;
+  }
+}
+
+/* line 37, ../sass/nurupo.sass */
 .bg {
-	height: 1000px;
-	background-position: top center;
-	background-repeat: no-repeat;
-	position: relative;
-	background-attachment: fixed;
-	-moz-background-size:100% auto;
-	-webkit-background-size:100% auto;
-	-o-background-size:100% auto;
-	-ms-background-size:100% auto;
+  height: 1000px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-attachment: fixed;
+  -moz-background-size: 100% auto;
+  -webkit-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  -ms-background-size: 100% auto;
+  background-size: 100% auto;
+}
+@media screen and (max-device-width: 480px) {
+  /* line 37, ../sass/nurupo.sass */
+  .bg {
+    height: 100%;
+    -moz-background-size: auto 100%;
+    -webkit-background-size: auto 100%;
+    -o-background-size: auto 100%;
+    -ms-background-size: auto 100%;
+    background-size: auto 100%;
+    position: static;
+    background-attachment: scroll;
+  }
 }
 
+/* line 58, ../sass/nurupo.sass */
 .item {
-	height: 100%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+@media screen and (max-device-width: 480px) {
+  /* line 58, ../sass/nurupo.sass */
+  .item {
+    -moz-background-size: 100px auto;
+    -webkit-background-size: 100px auto;
+    -o-background-size: 100px auto;
+    -ms-background-size: 100px auto;
+    background-size: 100px auto;
+    background-attachment: scroll;
+  }
 }
 
+@media screen and (max-device-width: 480px) {
+  /* line 70, ../sass/nurupo.sass */
+  #member {
+    height: 100%;
+    -moz-background-size: 100% auto;
+    -webkit-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    background-size: 100% auto;
+  }
+}
 
 /* ----------------------------
- background
-*/
-#bg1  { background-image: url(../images/bg1.jpg); }
-#bg1b { background-image: url(../images/bg1b.jpg); opacity: 1; }
-#bg2  { background-image: url(../images/bg2.jpg); }
-#bg3  { background-image: url(../images/bg3.jpg); }
-#bg4  { background-image: url(../images/bg4.jpg); }
-#bg5  { background-image: url(../images/bg5.jpg); }
+ *background */
+/* line 82, ../sass/nurupo.sass */
+#bg1 {
+  background-image: url(../images/bg1.jpg);
+}
+@media screen and (max-device-width: 480px) {
+  /* line 82, ../sass/nurupo.sass */
+  #bg1 {
+    background-image: none;
+  }
+}
 
+/* line 87, ../sass/nurupo.sass */
+#bg1b {
+  background-image: url(../images/bg1b.jpg);
+  opacity: 1;
+}
+
+/* line 91, ../sass/nurupo.sass */
+#bg2 {
+  background-image: url(../images/bg2.jpg);
+}
+@media screen and (max-device-width: 480px) {
+  /* line 91, ../sass/nurupo.sass */
+  #bg2 {
+    box-shadow: inset black 0 0 200px;
+    -webkit-box-shadow: inset black 0 0 200px;
+    -moz-box-shadow: inset black 0 0 200px;
+    -o-box-shadow: inset black 0 0 200px;
+  }
+}
+
+/* line 96, ../sass/nurupo.sass */
+#bg3 {
+  background-image: url(../images/bg3.jpg);
+}
+@media screen and (max-device-width: 480px) {
+  /* line 96, ../sass/nurupo.sass */
+  #bg3 {
+    box-shadow: inset black 0 0 200px;
+    -webkit-box-shadow: inset black 0 0 200px;
+    -moz-box-shadow: inset black 0 0 200px;
+    -o-box-shadow: inset black 0 0 200px;
+  }
+}
+
+/* line 101, ../sass/nurupo.sass */
+#bg4 {
+  background-image: url(../images/bg4.jpg);
+}
+@media screen and (max-device-width: 480px) {
+  /* line 101, ../sass/nurupo.sass */
+  #bg4 {
+    box-shadow: inset black 0 0 200px;
+    -webkit-box-shadow: inset black 0 0 200px;
+    -moz-box-shadow: inset black 0 0 200px;
+    -o-box-shadow: inset black 0 0 200px;
+  }
+}
+
+/* line 106, ../sass/nurupo.sass */
+#bg5 {
+  background-image: url(../images/bg5.jpg);
+}
+@media screen and (max-device-width: 480px) {
+  /* line 106, ../sass/nurupo.sass */
+  #bg5 {
+    box-shadow: inset black 0 0 200px;
+    -webkit-box-shadow: inset black 0 0 200px;
+    -moz-box-shadow: inset black 0 0 200px;
+    -o-box-shadow: inset black 0 0 200px;
+  }
+}
 
 /* ----------------------------
- items
-*/
+ *items */
+/* line 114, ../sass/nurupo.sass */
 #beer1 {
-	background-image: url(../images/beer1.png);
-	position: relative;
-	background-position: 20% 100%;
+  background-image: url(../images/beer1.png);
+  position: relative;
+  background-position: 20% 100%;
 }
 
+/* line 119, ../sass/nurupo.sass */
 #beer2 {
-	background-image: url(../images/beer2.png);
-	position: relative;
-	background-position: 100% 100%;	
+  background-image: url(../images/beer2.png);
+  position: relative;
+  background-position: 100% 100%;
 }
 
+/* line 124, ../sass/nurupo.sass */
 #baken {
-	background-image: url(../images/img_baken.png);
-	position: relative;
-	background-position: 100% 100%;	
+  background-image: url(../images/img_baken.png);
+  position: relative;
+  background-position: 100% 100%;
 }
 
+/* line 129, ../sass/nurupo.sass */
 #satutaba1 {
-	background-image: url(../images/img_satutaba1.png);
-	position: relative;
-	background-position: 100% 100%;	
+  background-image: url(../images/img_satutaba1.png);
+  position: relative;
+  background-position: 100% 100%;
 }
 
+/* line 134, ../sass/nurupo.sass */
 #member {
-	background-image: url(../images/img_member.png);
-	position: relative;
-	background-position: 100% 100%;	
+  background-image: url(../images/img_member.png);
+  position: relative;
+  background-position: 100% 100%;
 }
 
+/* line 139, ../sass/nurupo.sass */
 #pepe {
-	background-image: url(../images/pepe.png);
-	position: relative;
-	background-position: 100% 100%;
+  background-image: url(../images/pepe.png);
+  position: relative;
+  background-position: 100% 100%;
 }
-
-
 
 /* ----------------------------
- text etc
-*/
-
+ *text etc */
 /* logo(first view) */
+/* line 149, ../sass/nurupo.sass */
 #bg1 h1 {
-	position: absolute;
-	top: 50%;
-	left: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
-
+/* line 153, ../sass/nurupo.sass */
 #bg1 h1 img {
-	margin-left: -150px;
-	margin-top: -90px;
+  margin-left: -150px;
+  margin-top: -90px;
 }
-
 
 /* e.g. Text Layer */
+/* line 159, ../sass/nurupo.sass */
 .text {
-	width: 1200px;
-	margin: 0 auto;
-	text-shadow: 0 1px 0 rgba(0,0,0,.5);
-	clear: both;
-	position: relative;
+  width: 1200px;
+  margin: 0 auto;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+  clear: both;
+  position: relative;
+}
+@media screen and (max-device-width: 480px) {
+  /* line 159, ../sass/nurupo.sass */
+  .text {
+    width: 100%;
+    text-shadow: 0 1px 3px #000001, 0 1px 10px rgba(0, 0, 0, 0.6);
+  }
+}
+/* line 168, ../sass/nurupo.sass */
+.text .wrapper {
+  position: relative;
+  color: white;
+  font-size: 14px;
+  width: 400px;
+  top: 400px;
+}
+@media screen and (max-device-width: 480px) {
+  /* line 168, ../sass/nurupo.sass */
+  .text .wrapper {
+    width: 96%;
+    padding: 20px 2%;
+    font-size: 12px;
+    top: 0;
+    height: 100%;
+  }
 }
 
 /* text box */
-.text .wrapper {
-	position: relative;
-	color: #fff;
-	font-size: 14px;
-	width: 400px;
-	top: 400px;
-}
-
+/* line 183, ../sass/nurupo.sass */
 #bg2 .text .wrapper {
-	float: right;
+  float: right;
 }
 
-#bg3 .text .wrapper {
-}
-
+/* line 188, ../sass/nurupo.sass */
 #bg4 .text .wrapper {
-	float: right;
+  float: right;
 }
 
+/* line 191, ../sass/nurupo.sass */
 #bg5 .text .wrapper {
-	margin: 0 auto;
+  margin: 0 auto;
 }
-
 
 /* detail style */
-.text h2 {	
-	font-size: 50px;
-	margin-bottom: 10px;
+/* line 197, ../sass/nurupo.sass */
+.text h2 {
+  font-size: 50px;
+  margin-bottom: 10px;
 }
-
+@media screen and (max-device-width: 480px) {
+  /* line 197, ../sass/nurupo.sass */
+  .text h2 {
+    font-size: 24px;
+  }
+}
+/* line 202, ../sass/nurupo.sass */
 .text p {
-	margin-bottom: 1em;
+  margin-bottom: 1em;
 }

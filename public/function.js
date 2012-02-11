@@ -1,5 +1,4 @@
 // parallax effect
-
 function parallax(){
 	$(window).scroll(function(){
 		var y = jQuery(this).scrollTop();
