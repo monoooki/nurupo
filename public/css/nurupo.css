@@ -2,6 +2,10 @@
  *mixins */
 /* ----------------------------
  *common setting */
+body {
+	background: url(../images/bg.png);
+}
+
 @media screen and (max-device-width: 480px) {
   /* line 29, ../sass/nurupo.sass */
   body {
