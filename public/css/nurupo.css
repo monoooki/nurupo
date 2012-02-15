@@ -164,6 +164,10 @@ background-size: 100% auto;
   background-image: url(../images/bg8.jpg);
 }
 
+#bg9 {
+  background-image: url(../images/bg9.jpg);
+}
+
 /* ----------------------------
  *items */
 /* line 114, ../sass/nurupo.sass */
