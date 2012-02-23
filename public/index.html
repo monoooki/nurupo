@@ -20,6 +20,15 @@ $(document).ready(function() {
 <meta content='width=device-width, height=device-height, initial-scale=1.0' name='viewport'>
 </head>
 <body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1&appId=254573907921125";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 	
 	
 <!-- exterior ///////////////////////////////// -->
@@ -115,9 +124,10 @@ $(document).ready(function() {
 	<div class="text">
 		<div class="wrapper center">
 			<h2>Welcome to ぬる舗</h2>
-			<p>
-			<script type="text/javascript" src="http://growbutton.com/javascripts/button.js?apikey=95fb7210-351e-012f-064b-12313f00aced&shape=square"></script>
-			</p>
+			<div class="socialparts">
+				<script type="text/javascript" src="http://growbutton.com/javascripts/button.js?apikey=95fb7210-351e-012f-064b-12313f00aced&shape=square"></script>
+				<div class="fb-like-box" data-href="http://nurupo.sh/" data-width="800" data-height="600" data-show-faces="true" data-stream="false" data-header="true"></div>
+			</div>
 		</div>
 	</div>
 <!-- /#bg9 --></div>
